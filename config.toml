@@ -1,0 +1,18 @@
+[tables]
+names = ["asset_registrar", "component_types", "components", "failure_types", "locations", "preventative_maintenance", "root_causes", "severities", "spare_parts", "stations", "unplanned_maintenance"]
+
+[[form_entries]]
+key = "add-asset"
+table = "asset_registrar"
+cross_reference_tables = ["locations"]
+cross_reference_columns = ["id"]
+cross_reference_labels = ["location_id"]
+cross_reference_conditions = ["name"]
+
+[[form_entries]]
+key = "add-station"
+table = "stations"
+cross_reference_tables = ["locations", "asset_registrar"]
+cross_reference_columns = ["id", "id"]
+cross_reference_labels = ["location_id", "asset_id"]
+cross_reference_conditions = ["name", "manufacturer"]

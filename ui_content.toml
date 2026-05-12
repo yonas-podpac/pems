@@ -1,0 +1,129 @@
+[[navigation_data]]
+item = "Home"
+header = ""
+table = ""
+actions = ["none"]
+
+[[navigation_data]]
+item = "Production Rooms"
+header = "Production Rooms"
+table = "locations"
+actions = ["none"]
+
+[[navigation_data]]
+item = "Asset Registrar"
+header = "Asset Registrar"
+table = "asset_registrar"
+actions = ["add-asset"]
+
+[[navigation_data]]
+item = "Machine Stations"
+header = "Machine Stations"
+table = "stations"
+actions = ["add-station"]
+
+[[navigation_data]]
+item = "Spare Parts"
+header = "Inventory Management"
+table = "spare_parts"
+actions = ["add-part", "update-inventory", "generate-shopping-list"]
+
+[[navigation_data]]
+item = "Maintenance Schedule"
+header = "Preventative Maintenance"
+table = "preventative_maintenance"
+actions = ["add-preventative-maintenance-task", "generate-form", "update-schedule"]
+
+[[navigation_data]]
+item = "Unplanned Maintenance"
+header = "Unplanned Maintenance"
+table = "unplanned_maintenance"
+actions = ["add-unplanned-maintenance", "update-unplanned-maintenance"]
+
+[[table_render]]
+name = "asset_registrar"
+reference = "id"
+foreign_key = "asset_id"
+xref_column = "manufacturer"
+orig_cols = ["location_id"]
+rename_cols = ["Room"]
+
+[[table_render]]
+name = "component_types"
+reference = "component_type"
+foreign_key = "component_type"
+xref_column = "component_type"
+orig_cols = []
+rename_cols = []
+
+[[table_render]]
+name = "components"
+reference = ""
+foreign_key = ""
+xref_column = ""
+orig_cols = ["location_id", "asset_id", "station_id", "part_id"]
+rename_cols = ["Room", "Asset Manufacturer", "Station", "Part Name"]
+
+[[table_render]]
+name = "failure_types"
+reference = "failure"
+foreign_key = "failure"
+xref_column = "failure"
+orig_cols = []
+rename_cols = []
+
+[[table_render]]
+name = "locations"
+reference = "id"
+foreign_key = "location_id"
+xref_column = "name"
+orig_cols = ["name"]
+rename_cols = ["Room"]
+
+[[table_render]]
+name = "preventative_maintenance"
+reference = ""
+foreign_key = ""
+xref_column = ""
+orig_cols = ["location_id", "asset_id", "station_id"]
+rename_cols = ["Room", "Asset Manufacturer", "Station"]
+
+[[table_render]]
+name = "root_causes"
+reference = "cause"
+foreign_key = "cause"
+xref_column = "cause"
+orig_cols = []
+rename_cols = []
+
+[[table_render]]
+name = "severities"
+reference = "name"
+foreign_key = "severity"
+xref_column = "name"
+orig_cols = []
+rename_cols = []
+
+[[table_render]]
+name = "spare_parts"
+reference = "id"
+foreign_key = "part_id"
+xref_column = "name"
+orig_cols = []
+rename_cols = []
+
+[[table_render]]
+name = "stations"
+reference = "id"
+foreign_key = "station_id"
+xref_column = "name"
+orig_cols = ["location_id", "asset_id"]
+rename_cols = ["Room", "Asset Manufacturer"]
+
+[[table_render]]
+name = "unplanned_maintenance"
+reference = ""
+foreign_key = ""
+xref_column = ""
+orig_cols = ["location_id", "asset_id", "station_id", "cost"]
+rename_cols = ["Room", "Asset Manufacturer", "Station", "Cost ($)"]

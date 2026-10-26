@@ -1,0 +1,15 @@
+[ Research ID ]                             [ Analysis Type ]
+[ Text Input ]                              [ Select Box ]
+
+[ Capsule Type ]        [Lid Material ]     [ Group Number ]
+[ Text Input ]          [ Text Input ]      [ Number Input ]
+
+[ Coffee Profile ]      [ Dose Weight (g) ] [ Grind Setting]
+[ Text Input ]          [ Number Input ]    [ Number Input ]
+
+[ Pack Date ]                               [ Grind Date ]
+[ Date Select ]                             [ Date Select ]
+
+[ File Drop Field ]
+
+[ 💾 Submit Extraction Analysis ]   [ ❌ Cancel ]

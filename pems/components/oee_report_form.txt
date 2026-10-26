@@ -1,0 +1,59 @@
+First Page
++ --------------------------------------------------------------------------------------------- +
+|   Production Files Submission Form                                                            |
++ --------------------------------------------------------------------------------------------- +
+|   Parameter Settings                                                                          |
+|   File Submission Types: [   Logs    ]   [   Schedule    ]   [   Summary   ]                  |
+|   Production Room:       [ Select a Production Room                      v ]                  |
+|   Date Range: [    Start Date    ]   [    End Date    ]                                       |
++ --------------------------------------------------------------------------------------------- +
+|   [   Previous    ]   [   Next    ]   [   Cancel   ]                              Page 1 of 2 |
++ --------------------------------------------------------------------------------------------- +
+
+Subsequent File Upload Pages (using Nespresso as an example)
++ --------------------------------------------------------------------------------------------- +
+|   Production Files Submission Form                                                            |
++ --------------------------------------------------------------------------------------------- +
+|   Upload Files: Nespresso Spreafico                                                           |
+|   Upload OEE files between [  Start Date  ]   [   End Date    ]                               |
+|       [ Check Icon ]  [ Date ]    OEE file successfully uploaded                              |
+|       [ Check Icon ]  [ Date ]    OEE file successfully uploaded                              |
+|                                                                                               |
+|   + ------------------------------------------------------------------------------------- +   |
+|   |                               Drag and drop a file here                               |   |
+|   + ------------------------------------------------------------------------------------- +   |
++ --------------------------------------------------------------------------------------------- +
+|   [   Previous    ]   [   Next    ]   [   Cancel   ]                              Page 2 of 4 |
++ --------------------------------------------------------------------------------------------- +
+
+Subsequent File Upload Pages (using Nespresso as an example)
++ --------------------------------------------------------------------------------------------- +
+|   Production Files Submission Form                                                            |
++ --------------------------------------------------------------------------------------------- +
+|   Upload Files: Nespresso HMPS                                                                |
+|   Upload Faults, Runtime & Settings Files                                                     |
+|       [ Check Icon ]  Faults file successfully uploaded                                       |
+|                                                                                               |
+|   + ------------------------------------------------------------------------------------- +   |
+|   |                               Drag and drop a file here                               |   |
+|   + ------------------------------------------------------------------------------------- +   |
++ --------------------------------------------------------------------------------------------- +
+|   [   Previous    ]   [   Next    ]   [   Cancel   ]                              Page 3 of 4 |
++ --------------------------------------------------------------------------------------------- +
+
+Submission Page (using Nespresso as an example)
++ --------------------------------------------------------------------------------------------- +
+|   Production Files Submission Form                                                            |
++ --------------------------------------------------------------------------------------------- +
+|   Status 3 out of 8 Files uploaded                                                            |
+|       [ Check Icon ]  [ Date ]    OEE file successfully uploaded                              |
+|       [ Check Icon ]  [ Date ]    OEE file successfully uploaded                              |
+|       [ Cross Icon ]  [ Date ]    OEE file not uploaded                                       |
+|       [ Cross Icon ]  [ Date ]    OEE file not uploaded                                       |
+|       [ Cross Icon ]  [ Date ]    OEE file not uploaded                                       |
+|       [ Check Icon ]  Faults file successfully uploaded                                       |
+|       [ Cross Icon ]  Runtime file not uploaded                                               |
+|       [ Cross Icon ]  Settings file not uploaded                                              |
++ --------------------------------------------------------------------------------------------- +
+|   [   Previous    ]   [   Submit    ]   [   Cancel   ]                            Page 4 of 4 |
++ --------------------------------------------------------------------------------------------- +

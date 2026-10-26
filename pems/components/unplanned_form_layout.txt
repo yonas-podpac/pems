@@ -1,0 +1,60 @@
+======================================================================================
+  UNPLANNED MAINTENANCE INTAKE FORM
+  [ Work Order ID: WO-26-113 ]   [ UM ID: UM-26-241 ]
+  [ Title                                                 ]
+======================================================================================
+
+--- SECTION 1: LOCATION & ASSET HIERARCHY -------------------------------------------
+
+  Production Room [ Select Production Room                                         v ]
+  Asset           [ Select Asset                                                   v ]
+  Station         [ Select Station                                                 v ]
+  + Past Unplanned Maintenances: ----------------------------------------------------+
+  | [ UM-2026-014 ]  •  2026-07-28                                                   |
+  | Summary: Drive belt slipping, replaced belt and recalibrated tension.            |
+  | Station: Drive Motor Deck                                                        |
+  +----------------------------------------------------------------------------------+
+
+--- SECTION 2: REPORTING & INITIAL FAILURE DETAILS -----------------------------------
+
+  Reported By                Assigned To                 Initial Failure Date
+  [ Technician Name        ] [ Assigned Staff          ] [ YYYY-MM-DD              v ]
+  Failure Type                                Severity
+  [ Select Failure Type                  v ]  [ Select Severity                    v ]
+  Description
+  [ Summary of the error that took place                                           v ]
+
+--- SECTION 3: RECURRING INCIDENTS & ACTIONS LOG -------------------------------------
+
+  +----------------------------------------------------------------------------------+
+  | Incident #1                                                                      |
+  | Start: [ 2026-08-01 08:30 ]   End: [ 2026-08-01 09:15 ]   Duration: 0.75 hrs     |
+  | Action Taken:                                                                    |
+  | [ Cleared jam, reset thermal overload relay.                                   ] |
+  +----------------------------------------------------------------------------------+
+  | Incident #2                                                                      |
+  | Start: [ 2026-08-02 11:00 ]   End: [ 2026-08-02 11:30 ]   Duration: 0.50 hrs     |
+  | Action Taken:                                                                    |
+  | [ Lubricated motor deck bearings and re-tested line speed.                     ] |
+  +----------------------------------------------------------------------------------+
+
+  [ + Add Incident / Action Entry ]
+
+--- SECTION 4: RESOLUTION & TOTALS ---------------------------------------------------
+
+  Is Resolved?
+  ( ) No    (X) Yes
+
+  Resolution Date & Time                      Root Cause
+  [ YYYY-MM-DD  --:--                    v ]  [ Select Root Cause                  v ]
+
+  Follow-up Required?
+  ( ) No    (X) Yes
+
+  Total Estimated Downtime (Auto-Sum)         Total Cost ($)
+  [ 1.25 hrs                                ] [ 0.00                                ]
+
+
+======================================================================================
+                                              [ Cancel ]   [ Save Maintenance Record ]
+======================================================================================

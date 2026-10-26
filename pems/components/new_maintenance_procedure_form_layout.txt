@@ -1,0 +1,32 @@
+======================================================================================
+  New Preventative Maintenance Procedure
+  [ Maintenance Procedure ID: WO-26-113 ]
+  [ Title                                                 ]
+======================================================================================
+
+--- SECTION 1: PROCEDURE LOCATION & FREQUENCY DETAILS --------------------------------
+
+  Production Room:              [ Nespresso Production Room         v ]
+  Estimated Duration (mins):    [ Number Input                        ]
+  Repeats:                      [ Weekly                            v ]
+  On: [ Ordinal Select (*if not weekly)  v ] [ Weekday Select       v ]
+  Start Date: [ Number Input ] [ Month Select Box  v ] [ Number Input ]
+  
+======================================================================================
+
+--- SECTION 2: ASSET & TASK DETAILS --------------------------------------------------
+
+  + ------------------------------------------------------- +
+  | Asset: [ Asset Select Box   v]                          |
+  + ----------- + --------------------- + ----------------- +
+  | Task ID     | Station               | Task Description  |
+  + ----------- + --------------------- + ----------------- +
+  | NW-01       | [ Station Select v ]  | [ Text Input   ]  |
+  + ----------- + --------------------- + ----------------- +
+  | [ + Add Task Row  ]                                     |
+  + ------------------------------------------------------- +
+  [ + Add Asset Table ]
+
+======================================================================================
+  [ Save Preventative Maintenance Procedure ]       [ Cancel ]
+======================================================================================

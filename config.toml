@@ -1,18 +1,30 @@
-[tables]
-names = ["asset_registrar", "component_types", "components", "failure_types", "locations", "preventative_maintenance", "root_causes", "severities", "spare_parts", "stations", "unplanned_maintenance"]
-
-[[form_entries]]
-key = "add-asset"
-table = "asset_registrar"
-cross_reference_tables = ["locations"]
-cross_reference_columns = ["id"]
-cross_reference_labels = ["location_id"]
-cross_reference_conditions = ["name"]
-
-[[form_entries]]
-key = "add-station"
-table = "stations"
-cross_reference_tables = ["locations", "asset_registrar"]
-cross_reference_columns = ["id", "id"]
-cross_reference_labels = ["location_id", "asset_id"]
-cross_reference_conditions = ["name", "manufacturer"]
+tables=[
+    "asset_registrar",
+    "asset_settings_changes",
+    "asset_statuses",
+    "component_types",
+    "components",
+    "extraction_analysis_history",
+    "failure_types",
+    "faults",
+    "locations",
+    "maintenance_frequencies",
+    "maintenance_procedures",
+    "maintenance_tasks",
+    "maintenance_types",
+    "preventative_maintenance",
+    "production_output",
+    "production_output_units",
+    "roles",
+    "root_causes",
+    "service_maintenance",
+    "service_provider_types",
+    "severities",
+    "spare_parts",
+    "stations",
+    "unplanned_events",
+    "unplanned_maintenance",
+    "user_profiles",
+    "work_order_statuses",
+    "work_orders",
+]

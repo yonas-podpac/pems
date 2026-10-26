@@ -1,0 +1,24 @@
+[ Work Order ID ]                                                  [ Service ID ]
+    WO-26-001                                                         SM-26-001
+
+[ Title ]
+
+[ Created By ]                                                     [ Created At ]
+
+[ Internal / External ]                                           [ Assigned To ]
+
+[ Status ]                                                        [ Complted At ]
+
++ [ For each asset ] ---------------------------------------------------------- +
+|                                                                               |
++ ----------------------------------------------------------------------------- +
+| Asset Name                                                                    |
++ ----- + --------------------------------------------------------------------- +
+| Notes | [ Text Area ]                                                         |
++ ----- + --------------------------------------------------------------------- +
+
+Additional Notes:
+[ Text Area ]
+                                                         Cost: $ [ Number Input ]
+
+[ ✏️ Edit Report / 💾 Submit Report ]     [ 🖨️ Print Report ]     [ ❌ Cancel ]

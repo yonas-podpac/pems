@@ -1,0 +1,49 @@
+======================================================================================
+  Service Scheduling & Summary Form
+  [ Work Order ID: WO-26-617 ]   [ Service ID: SM-26-521 ]
+  [ Title                                                 ]
+======================================================================================
+
+--- SECTION 1: REPORTING & SERVICE ASSIGNEMNET DETAILS -------------------------------
+
+  Reported By                                            Service Date
+  [ Technician Name        ]                             [ YYYY-MM-DD              v ]
+
+  External?    ( Toggle ) 
+
+  Assigned To / Service Provider:   [ Technician Name / Service Provider Name        ]
+
+======================================================================================
+
+--- SECTION 2: ASSETS TO BE SERVICED -------------------------------------------------
+
+  One Production Area? ( Toggle )
+  +----------------------------------------------------------------------------------+
+  | Production Area: [ Select Production Area         v ]                            |
+  | Asset: [ Select Asset                    v ]                                     |
+  | Notes: [ Notes on Asset being Serviced                                         ] |
+  +----------------------------------------------------------------------------------+
+  | Production Area: [ Select Production Area         v ]                            |
+  | Asset: [ Select Asset                    v ]                                     |
+  | Notes: [ Notes on Asset being Serviced                                         ] |
+  +----------------------------------------------------------------------------------+
+
+  [ + Add Asset to be Serviced ]
+
+  Additional Notes: [ Final notes on the service performed                           ]
+
+======================================================================================
+
+--- SECTION 3: COMPLETION SUMMARY ----------------------------------------------------
+
+  Complete? ( Toggle )
+
+  Completion Date                             
+  [ YYYY-MM-DD                           v ]  
+
+  Total Downtime (hrs)                      Total Cost ($)
+  [ 0.00                                 ]  [ 0.00                                  ]
+
+======================================================================================
+  [ Save Maintenance Record ]        [ Cancel ]
+======================================================================================

@@ -1,0 +1,25 @@
+Calendar State Lists:
+
+days = list[str]
+e.g. [
+    "27-07-2026", // example of last days of previous month, first day is a monday
+    ...,
+    "17-08-2026", // example of current month days
+    ...,
+    "06-09-2026"  // example of last day of month
+]
+
+tasks = dict[str, dict[str, list[dict[str, str]]]]
+e.g. {
+    "27-07-2026": {
+        "breakdown": [{"day": "27", "month": "07", "year": "2026"}],
+        "current": [{"day": "no", "month": "no", "year": "yes"}],     // Current day, month, year
+        "tasks": [{
+            "id": "",
+            "title": "",
+            "type": "",     // procedure, preventative, service or unplanned
+            "complete": "", // "yes" or "no"
+            "colour": ""    // colour code based on task type
+        }]
+    }
+}

@@ -1,0 +1,28 @@
+[ Work Order ID ]                                                [ Unplanned ID ]
+    WO-26-001                                                        UM-26-001
+
+[ Created By ]                                                     [ Created At ]
+
+[ Assigned To ]               [ Status ]              [ Completed Date (Select) ]
+
+[ Severity ]                  [ Failure Type ]                      [ Root Cause]
+
+[ Location ]                  [ Asset ]                               [ Station ]
+
+[ Description ]
+
++ [ For each Action Taken ] --------------------------------------------------- +
+|                                                                               |
++ -- + --------------- + ------------------------------------------------------ +
+| 1. | [ Date Select ] | An action that was Taken                               |
++ -- + --------------- + ------------------------------------------------------ +
+
++ [ For each Spare Part Used ] ------------------------------------------------ +
+|                                                                               |
++ -- + -------------------- + ------------------------------------------------- +
+| 1. | Part Name            | Quantity Used                                     |
++ -- + -------------------- + ------------------------------------------------- +
+
+Downtime: [ Estimated Downtime ] mins                    Cost: $ [ Number Input ]
+
+[ ✏️ Edit Report / 💾 Submit Report ]     [ 🖨️ Print Report ]     [ ❌ Cancel ]
